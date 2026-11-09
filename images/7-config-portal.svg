@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Punto de acceso y portal de configuración ESP32</title>
+  <desc id="description">Un celular se conecta a la red temporal ESP32-Setup y abre el portal para configurar WiFi, el sensor DHT22 y la salida de datos.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <text x="450" y="52" text-anchor="middle" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">Primer arranque y portal de configuración</text>
+  <rect x="64" y="113" width="196" height="278" rx="27" fill="#183752"/>
+  <rect x="77" y="132" width="170" height="238" rx="18" fill="#fff"/>
+  <rect x="139" y="119" width="48" height="5" rx="3" fill="#9bb9c8"/>
+  <text x="162" y="165" text-anchor="middle" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Redes WiFi</text>
+  <rect x="91" y="184" width="143" height="52" rx="10" fill="#e1f3e8"/>
+  <circle cx="109" cy="210" r="7" fill="#3a9a60"/>
+  <text x="124" y="207" fill="#245e3d" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">ESP32-Setup</text>
+  <text x="124" y="225" fill="#39764b" font-family="Arial, Helvetica, sans-serif" font-size="12">Punto de acceso</text>
+  <path d="M111 259c27-24 55-24 82 0m-68 13c18-16 36-16 54 0m-39 14c8-7 16-7 24 0" fill="none" stroke="#5d9bb8" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="149" cy="296" r="4" fill="#5d9bb8"/>
+  <text x="162" y="342" text-anchor="middle" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="12">http://192.168.4.1</text>
+  <path d="M260 252h82" stroke="#52778b" stroke-width="4" stroke-linecap="round"/>
+  <path d="m333 243 12 9-12 9" fill="none" stroke="#52778b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="301" y="230" text-anchor="middle" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="14">abrir portal</text>
+  <rect x="354" y="103" width="482" height="294" rx="17" fill="#fff" stroke="#9bb9c8" stroke-width="3"/>
+  <path d="M371 103h448a17 17 0 0 1 17 17v38H354v-38a17 17 0 0 1 17-17Z" fill="#183752"/>
+  <circle cx="379" cy="130" r="5" fill="#fff" opacity=".8"/>
+  <circle cx="397" cy="130" r="5" fill="#fff" opacity=".8"/>
+  <circle cx="415" cy="130" r="5" fill="#fff" opacity=".8"/>
+  <text x="595" y="136" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Configuración BioRed</text>
+  <text x="383" y="186" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Red WiFi</text>
+  <rect x="382" y="198" width="426" height="40" rx="7" fill="#f3f7fa" stroke="#cfdee5" stroke-width="2"/>
+  <text x="398" y="224" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="14">SSID de la red de 2,4 GHz</text>
+  <text x="383" y="261" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Sensor DHT22</text>
+  <rect x="382" y="273" width="426" height="40" rx="7" fill="#f3f7fa" stroke="#cfdee5" stroke-width="2"/>
+  <circle cx="405" cy="293" r="9" fill="#3a9a60"/>
+  <path d="m401 293 3 3 6-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="425" y="298" fill="#29475a" font-family="Arial, Helvetica, sans-serif" font-size="14">Habilitado · GPIO 14 · Estado: ok</text>
+  <text x="383" y="337" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Salida de datos</text>
+  <rect x="382" y="349" width="426" height="33" rx="7" fill="#e9f4fb"/>
+  <circle cx="405" cy="365" r="8" fill="#5d9bb8"/>
+  <path d="m401 365 3 3 5-6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="425" y="370" fill="#29475a" font-family="Arial, Helvetica, sans-serif" font-size="14">MQTT o API HTTPS · Guardar configuración</text>
+</svg>

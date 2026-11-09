@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Crear BioRedConfig.h</title>
+  <desc id="description">El archivo BioRedConfig.example.h se copia y se renombra como BioRedConfig.h dentro de src.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <rect x="86" y="94" width="300" height="270" rx="16" fill="#fff" stroke="#cfdee5" stroke-width="3"/>
+  <path d="M112 128h62l18 19h166v178H112z" fill="#f3f8fa" stroke="#aac3ce" stroke-width="2"/>
+  <text x="137" y="187" fill="#526a7c" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">src/</text>
+  <rect x="128" y="211" width="252" height="70" rx="9" fill="#eaf3f7"/>
+  <text x="145" y="240" fill="#355266" font-family="Consolas, monospace" font-size="14">BioRedConfig.</text>
+  <text x="145" y="263" fill="#355266" font-family="Consolas, monospace" font-size="14">example.h</text>
+  <text x="237" y="332" text-anchor="middle" fill="#536c7c" font-family="Arial, Helvetica, sans-serif" font-size="15">Archivo de ejemplo: conservar</text>
+  <path d="M413 228h76" stroke="#4d91aa" stroke-width="6" stroke-linecap="round"/>
+  <path d="m475 211 19 17-19 17" fill="none" stroke="#4d91aa" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="514" y="94" width="300" height="270" rx="16" fill="#fff" stroke="#cfdee5" stroke-width="3"/>
+  <path d="M540 128h62l18 19h166v178H540z" fill="#f3f8fa" stroke="#aac3ce" stroke-width="2"/>
+  <text x="565" y="187" fill="#526a7c" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">src/</text>
+  <rect x="556" y="211" width="252" height="70" rx="9" fill="#e8f4eb"/>
+  <text x="573" y="253" fill="#286d43" font-family="Consolas, monospace" font-size="15" font-weight="700">BioRedConfig.h</text>
+  <text x="664" y="332" text-anchor="middle" fill="#286d43" font-family="Arial, Helvetica, sans-serif" font-size="15">Copia local para editar</text>
+</svg>

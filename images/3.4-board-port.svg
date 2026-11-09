@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Selección de placa y puerto</title>
+  <desc id="description">Ilustración de una tarjeta ESP32 conectada por USB y los selectores de placa y puerto en Arduino IDE.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <rect x="76" y="90" width="324" height="280" rx="18" fill="#fff" stroke="#cfdee5" stroke-width="3"/>
+  <rect x="165" y="144" width="145" height="178" rx="18" fill="#30835a"/>
+  <rect x="199" y="166" width="78" height="57" rx="9" fill="#c6d1d2"/>
+  <text x="238" y="201" text-anchor="middle" fill="#344b57" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">ESP32</text>
+  <rect x="211" y="133" width="52" height="14" rx="4" fill="#acbac0"/>
+  <rect x="217" y="318" width="40" height="20" rx="4" fill="#c7d2d7"/>
+  <path d="M237 338v43h203V201h58" fill="none" stroke="#4b8aa1" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="471" y="72" width="354" height="316" rx="16" fill="#fff" stroke="#cfdee5" stroke-width="3"/>
+  <path d="M487 72h322a16 16 0 0 1 16 16v42H471V88a16 16 0 0 1 16-16Z" fill="#183752"/>
+  <text x="500" y="111" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Arduino IDE · Selección de tarjeta</text>
+  <text x="505" y="173" fill="#526a7c" font-family="Arial, Helvetica, sans-serif" font-size="15">Placa</text>
+  <rect x="505" y="187" width="285" height="48" rx="8" fill="#f4f8fa" stroke="#b9cbd4" stroke-width="2"/>
+  <text x="523" y="217" fill="#293e53" font-family="Arial, Helvetica, sans-serif" font-size="16">ESP32 Dev Module</text>
+  <path d="m762 204 9 10 9-10" fill="none" stroke="#607887" stroke-width="2"/>
+  <text x="505" y="273" fill="#526a7c" font-family="Arial, Helvetica, sans-serif" font-size="15">Puerto</text>
+  <rect x="505" y="287" width="285" height="48" rx="8" fill="#eff8f1" stroke="#83c699" stroke-width="2"/>
+  <text x="523" y="317" fill="#286d43" font-family="Arial, Helvetica, sans-serif" font-size="16">Puerto de la tarjeta</text>
+  <path d="m762 304 9 10 9-10" fill="none" stroke="#607887" stroke-width="2"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Personalizar el punto de acceso</title>
+  <desc id="description">Opciones para personalizar la red ESP32-Setup, su contraseña y el nombre local del dispositivo.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <rect x="104" y="60" width="692" height="340" rx="16" fill="#172b3b"/>
+  <path d="M120 60h660a16 16 0 0 1 16 16v44H104V76a16 16 0 0 1 16-16Z" fill="#29485d"/>
+  <circle cx="136" cy="94" r="7" fill="#f17474"/>
+  <circle cx="160" cy="94" r="7" fill="#f2c56b"/>
+  <circle cx="184" cy="94" r="7" fill="#6ccc91"/>
+  <text x="220" y="101" fill="#e8f0f3" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">src/BioRedConfig.h · valores de fábrica</text>
+  <text x="146" y="173" fill="#d4e0e5" font-family="Consolas, monospace" font-size="17">#define BIORED_AP_SSID  "ESP32-Setup"</text>
+  <text x="146" y="222" fill="#a5d6b3" font-family="Consolas, monospace" font-size="17">#define BIORED_AP_PASS  "nueva_clave_segura"</text>
+  <text x="146" y="271" fill="#d4e0e5" font-family="Consolas, monospace" font-size="17">#define BIORED_HOSTNAME "biored"</text>
+  <rect x="146" y="315" width="326" height="44" rx="8" fill="#29485d"/>
+  <text x="166" y="343" fill="#e1edf1" font-family="Arial, Helvetica, sans-serif" font-size="15">http://biored.local</text>
+  <text x="500" y="343" fill="#a9bdc9" font-family="Arial, Helvetica, sans-serif" font-size="14">Contraseña: mínimo 8 caracteres</text>
+</svg>

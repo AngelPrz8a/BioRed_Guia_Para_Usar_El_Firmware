@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Identificar nombre, autor y versión</title>
+  <desc id="description">Resultado del Administrador de bibliotecas donde se verifican el nombre, el autor y la versión de una librería.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <rect x="110" y="52" width="680" height="356" rx="16" fill="#fff" stroke="#cfdee5" stroke-width="3"/>
+  <path d="M126 52h648a16 16 0 0 1 16 16v42H110V68a16 16 0 0 1 16-16Z" fill="#183752"/>
+  <text x="146" y="91" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Resultado de búsqueda</text>
+  <rect x="145" y="137" width="610" height="220" rx="13" fill="#f8fbfc" stroke="#d6e3e8" stroke-width="2"/>
+  <circle cx="193" cy="190" r="25" fill="#e6f4ea"/>
+  <path d="M181 190h24M193 178v24" stroke="#378a56" stroke-width="4" stroke-linecap="round"/>
+  <text x="237" y="183" fill="#293e53" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Nombre de la librería</text>
+  <text x="237" y="214" fill="#647587" font-family="Arial, Helvetica, sans-serif" font-size="16">Autor publicado</text>
+  <text x="163" y="271" fill="#536c7c" font-family="Arial, Helvetica, sans-serif" font-size="16">Versión</text>
+  <rect x="242" y="245" width="190" height="48" rx="8" fill="#fff" stroke="#b8cad3" stroke-width="2"/>
+  <text x="263" y="275" fill="#334b5b" font-family="Arial, Helvetica, sans-serif" font-size="17">Seleccionar versión</text>
+  <path d="m399 263 9 10 9-10" fill="none" stroke="#607887" stroke-width="2"/>
+  <text x="163" y="329" fill="#29704a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Confirmar los datos antes de instalar</text>
+</svg>

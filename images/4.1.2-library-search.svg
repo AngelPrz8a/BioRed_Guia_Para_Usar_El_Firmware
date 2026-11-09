@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Buscar una librería</title>
+  <desc id="description">Campo de búsqueda del Administrador de bibliotecas con un nombre de librería de ejemplo.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <rect x="110" y="52" width="680" height="356" rx="16" fill="#fff" stroke="#cfdee5" stroke-width="3"/>
+  <path d="M126 52h648a16 16 0 0 1 16 16v42H110V68a16 16 0 0 1 16-16Z" fill="#183752"/>
+  <text x="146" y="91" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Administrar bibliotecas</text>
+  <text x="150" y="164" fill="#4a6271" font-family="Arial, Helvetica, sans-serif" font-size="17">Buscar librería</text>
+  <rect x="146" y="182" width="606" height="64" rx="10" fill="#f7fafb" stroke="#56a4c0" stroke-width="3"/>
+  <circle cx="180" cy="213" r="12" fill="none" stroke="#557485" stroke-width="3"/>
+  <path d="m189 222 10 10" stroke="#557485" stroke-width="3" stroke-linecap="round"/>
+  <text x="220" y="222" fill="#293e53" font-family="Arial, Helvetica, sans-serif" font-size="20">ArduinoJson</text>
+  <rect x="146" y="274" width="606" height="74" rx="10" fill="#f8fbfc"/>
+  <text x="174" y="306" fill="#344c5e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Resultados de búsqueda</text>
+  <text x="174" y="333" fill="#718491" font-family="Arial, Helvetica, sans-serif" font-size="15">Escribir el nombre exacto de la librería requerida</text>
+</svg>

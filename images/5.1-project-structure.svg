@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Estructura del proyecto BioRed</title>
+  <desc id="description">La carpeta ESP32-WiFi-Modular contiene el sketch ESP32-WiFi-Modular.ino y la carpeta src.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <rect x="110" y="52" width="680" height="356" rx="16" fill="#fff" stroke="#cfdee5" stroke-width="3"/>
+  <text x="146" y="104" fill="#293e53" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">ESP32-WiFi-Modular/</text>
+  <path d="M165 124v207" stroke="#b8cbd5" stroke-width="3"/>
+  <path d="M165 166h36M165 224h36M165 282h36" stroke="#b8cbd5" stroke-width="3"/>
+  <path d="M213 144h28l12 12h245v39H213z" fill="#e6f3f8" stroke="#8eb4c3" stroke-width="2"/>
+  <text x="231" y="170" fill="#32576a" font-family="Consolas, monospace" font-size="17">src/</text>
+  <rect x="249" y="203" width="350" height="42" rx="8" fill="#e9f5ec"/>
+  <text x="267" y="230" fill="#286d43" font-family="Consolas, monospace" font-size="16">ESP32-WiFi-Modular.ino</text>
+  <text x="630" y="230" fill="#526a7c" font-family="Arial, Helvetica, sans-serif" font-size="14">Mismo nombre base</text>
+</svg>

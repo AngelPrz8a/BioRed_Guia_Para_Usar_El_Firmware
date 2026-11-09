@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Activar módulos del firmware</title>
+  <desc id="description">Ejemplo de valores 1 para sensor DHT22 y MQTT, y 0 para API.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <rect x="104" y="60" width="692" height="340" rx="16" fill="#172b3b"/>
+  <path d="M120 60h660a16 16 0 0 1 16 16v44H104V76a16 16 0 0 1 16-16Z" fill="#29485d"/>
+  <circle cx="136" cy="94" r="7" fill="#f17474"/>
+  <circle cx="160" cy="94" r="7" fill="#f2c56b"/>
+  <circle cx="184" cy="94" r="7" fill="#6ccc91"/>
+  <text x="220" y="101" fill="#e8f0f3" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">src/BioRedConfig.h</text>
+  <text x="150" y="169" fill="#a5d6b3" font-family="Consolas, monospace" font-size="18">#define BIORED_SENSOR_DHT22  1</text>
+  <text x="150" y="222" fill="#a5d6b3" font-family="Consolas, monospace" font-size="18">#define BIORED_SALIDA_MQTT   1</text>
+  <text x="150" y="275" fill="#d2c8a9" font-family="Consolas, monospace" font-size="18">#define BIORED_SALIDA_API    0</text>
+  <text x="150" y="340" fill="#d4e0e5" font-family="Arial, Helvetica, sans-serif" font-size="16">1 incluye el módulo al compilar · 0 lo deja fuera</text>
+</svg>

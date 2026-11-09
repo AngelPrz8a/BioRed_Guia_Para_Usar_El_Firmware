@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">DHT sensor library</title>
+  <desc id="description">Ilustración de DHT sensor library publicada por Adafruit para utilizar sensores DHT.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <rect x="110" y="52" width="680" height="356" rx="16" fill="#fff" stroke="#cfdee5" stroke-width="3"/>
+  <path d="M126 52h648a16 16 0 0 1 16 16v42H110V68a16 16 0 0 1 16-16Z" fill="#183752"/>
+  <text x="146" y="91" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Librería recomendada para DHT22</text>
+  <rect x="145" y="132" width="610" height="224" rx="13" fill="#f8fbfc" stroke="#d6e3e8" stroke-width="2"/>
+  <text x="178" y="185" fill="#293e53" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">DHT sensor library</text>
+  <text x="178" y="220" fill="#647587" font-family="Arial, Helvetica, sans-serif" font-size="17">Adafruit</text>
+  <rect x="178" y="254" width="202" height="60" rx="10" fill="#e5f4e9"/>
+  <text x="279" y="291" text-anchor="middle" fill="#286d43" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Leer el DHT22</text>
+  <path d="M405 284h66" stroke="#58a976" stroke-width="5" stroke-linecap="round"/>
+  <path d="m460 271 15 13-15 13" fill="none" stroke="#58a976" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="499" y="254" width="202" height="60" rx="10" fill="#eef5f8"/>
+  <text x="600" y="291" text-anchor="middle" fill="#3b5f70" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Sensor DHT22</text>
+  <text x="178" y="340" fill="#657b89" font-family="Arial, Helvetica, sans-serif" font-size="15">Al instalar, aceptar sus dependencias recomendadas.</text>
+</svg>

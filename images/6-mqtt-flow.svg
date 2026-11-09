@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Flujo de publicación MQTT</title>
+  <desc id="description">La ESP32 publica lecturas en un topic del broker MQTT, y un cliente suscrito recibe el mensaje.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <text x="450" y="60" text-anchor="middle" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Publicación MQTT</text>
+  <rect x="58" y="154" width="215" height="154" rx="18" fill="#fff" stroke="#9bb9c8" stroke-width="3"/>
+  <rect x="86" y="184" width="50" height="61" rx="7" fill="#e1f3e8" stroke="#3a9a60" stroke-width="3"/>
+  <path d="M97 198h28m-28 12h28m-28 12h28m-19 23v12m20-12v12" fill="none" stroke="#3a9a60" stroke-width="3" stroke-linecap="round"/>
+  <text x="157" y="209" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">ESP32</text>
+  <text x="157" y="237" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="15">Publica lecturas</text>
+  <text x="157" y="260" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="14">cada intervalo</text>
+  <path d="M273 231h102" stroke="#52778b" stroke-width="4" stroke-linecap="round"/>
+  <path d="m366 222 12 9-12 9" fill="none" stroke="#52778b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="324" y="205" text-anchor="middle" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="15">topic</text>
+  <rect x="380" y="136" width="220" height="190" rx="18" fill="#e9f4fb" stroke="#5d9bb8" stroke-width="3"/>
+  <circle cx="432" cy="192" r="15" fill="#5d9bb8"/>
+  <circle cx="472" cy="192" r="15" fill="#5d9bb8"/>
+  <circle cx="512" cy="192" r="15" fill="#5d9bb8"/>
+  <path d="M414 231h116" stroke="#5d9bb8" stroke-width="7" stroke-linecap="round"/>
+  <text x="490" y="271" text-anchor="middle" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Broker MQTT</text>
+  <text x="490" y="297" text-anchor="middle" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="14">Puerto habitual: 1883</text>
+  <path d="M600 231h102" stroke="#52778b" stroke-width="4" stroke-linecap="round"/>
+  <path d="m693 222 12 9-12 9" fill="none" stroke="#52778b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="651" y="205" text-anchor="middle" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="15">suscripción</text>
+  <rect x="708" y="154" width="145" height="154" rx="18" fill="#fff" stroke="#9bb9c8" stroke-width="3"/>
+  <rect x="741" y="183" width="78" height="48" rx="6" fill="#f3f7fa" stroke="#5d9bb8" stroke-width="3"/>
+  <path d="M752 198h56m-56 12h41" stroke="#5d9bb8" stroke-width="3" stroke-linecap="round"/>
+  <text x="780" y="263" text-anchor="middle" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Cliente</text>
+  <text x="780" y="284" text-anchor="middle" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="14">suscrito</text>
+  <rect x="177" y="359" width="546" height="47" rx="12" fill="#fff" stroke="#d4e0e6" stroke-width="2"/>
+  <text x="450" y="389" text-anchor="middle" fill="#29475a" font-family="Arial, Helvetica, sans-serif" font-size="17">Ejemplo: biored/lab01/dht22  ·  {"temperatura":24.5,"humedad":61.2}</text>
+</svg>

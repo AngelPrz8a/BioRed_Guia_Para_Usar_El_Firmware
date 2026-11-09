@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Flujo de envío mediante API HTTPS</title>
+  <desc id="description">La ESP32 verifica el certificado del servidor y envía una petición HTTPS con datos JSON y una clave API; el servidor responde con el código 201 al guardar.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <text x="450" y="60" text-anchor="middle" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Envío a una API mediante HTTPS</text>
+  <rect x="67" y="145" width="220" height="174" rx="18" fill="#fff" stroke="#9bb9c8" stroke-width="3"/>
+  <rect x="96" y="178" width="48" height="61" rx="7" fill="#e1f3e8" stroke="#3a9a60" stroke-width="3"/>
+  <path d="M106 191h28m-28 12h28m-28 12h28m-18 24v12m20-12v12" fill="none" stroke="#3a9a60" stroke-width="3" stroke-linecap="round"/>
+  <text x="163" y="202" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">ESP32</text>
+  <text x="163" y="230" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="15">Lecturas JSON</text>
+  <text x="177" y="282" text-anchor="middle" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="14">x-api-key + certificado raíz</text>
+  <path d="M287 216h115" stroke="#66a879" stroke-width="4" stroke-linecap="round"/>
+  <path d="m393 207 12 9-12 9" fill="none" stroke="#66a879" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="345" y="191" text-anchor="middle" fill="#39764b" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">POST cifrado</text>
+  <path d="M405 247H290" stroke="#8a9da8" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 8"/>
+  <path d="m299 238-12 9 12 9" fill="none" stroke="#8a9da8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="345" y="273" text-anchor="middle" fill="#486679" font-family="Arial, Helvetica, sans-serif" font-size="15">Respuesta 201</text>
+  <rect x="407" y="132" width="112" height="168" rx="16" fill="#e1f3e8" stroke="#66a879" stroke-width="3"/>
+  <path d="M463 155 490 166v23c0 17-11 27-27 35-16-8-27-18-27-35v-23z" fill="#fff" stroke="#3a9a60" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m451 188 8 8 16-18" fill="none" stroke="#3a9a60" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="463" y="251" text-anchor="middle" fill="#245e3d" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Certificado</text>
+  <text x="463" y="273" text-anchor="middle" fill="#39764b" font-family="Arial, Helvetica, sans-serif" font-size="15">válido</text>
+  <path d="M519 216h94" stroke="#66a879" stroke-width="4" stroke-linecap="round"/>
+  <path d="m604 207 12 9-12 9" fill="none" stroke="#66a879" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="618" y="145" width="215" height="174" rx="18" fill="#fff" stroke="#9bb9c8" stroke-width="3"/>
+  <rect x="665" y="175" width="121" height="72" rx="7" fill="#f3f7fa" stroke="#5d9bb8" stroke-width="3"/>
+  <path d="M681 191h89m-89 14h72m-72 14h54" stroke="#5d9bb8" stroke-width="3" stroke-linecap="round"/>
+  <text x="725" y="277" text-anchor="middle" fill="#183752" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">Servidor API</text>
+  <text x="450" y="377" text-anchor="middle" fill="#29475a" font-family="Arial, Helvetica, sans-serif" font-size="17">El servidor procesa la lectura y confirma el guardado con HTTP 201</text>
+</svg>

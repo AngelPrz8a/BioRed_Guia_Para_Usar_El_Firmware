@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Comprobación de Git</title>
+  <desc id="description">Terminal que muestra cómo comprobar la instalación de Git con git --version.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <rect x="112" y="68" width="676" height="324" rx="16" fill="#172b3b"/>
+  <path d="M128 68h644a16 16 0 0 1 16 16v42H112V84a16 16 0 0 1 16-16Z" fill="#29485d"/>
+  <circle cx="142" cy="100" r="7" fill="#f17474"/>
+  <circle cx="166" cy="100" r="7" fill="#f2c56b"/>
+  <circle cx="190" cy="100" r="7" fill="#6ccc91"/>
+  <text x="226" y="107" fill="#e8f0f3" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Terminal</text>
+  <text x="158" y="184" fill="#8fe0aa" font-family="Consolas, monospace" font-size="24">&gt; git --version</text>
+  <text x="158" y="234" fill="#e8f0f3" font-family="Consolas, monospace" font-size="23">git version 2.45.1</text>
+  <path d="M158 260h16" stroke="#e8f0f3" stroke-width="3"/>
+  <text x="158" y="326" fill="#a9bdc9" font-family="Arial, Helvetica, sans-serif" font-size="18">Un número de versión confirma que Git está disponible.</text>
+</svg>

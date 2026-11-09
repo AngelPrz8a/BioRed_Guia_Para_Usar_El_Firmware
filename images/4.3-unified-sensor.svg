@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title description">
+  <title id="title">Adafruit Unified Sensor</title>
+  <desc id="description">Ilustración de Adafruit Unified Sensor como dependencia de DHT sensor library.</desc>
+  <rect width="900" height="460" rx="24" fill="#eef5f8"/>
+  <rect x="110" y="52" width="680" height="356" rx="16" fill="#fff" stroke="#cfdee5" stroke-width="3"/>
+  <path d="M126 52h648a16 16 0 0 1 16 16v42H110V68a16 16 0 0 1 16-16Z" fill="#183752"/>
+  <text x="146" y="91" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Dependencia de DHT sensor library</text>
+  <rect x="145" y="132" width="610" height="224" rx="13" fill="#f8fbfc" stroke="#d6e3e8" stroke-width="2"/>
+  <text x="178" y="185" fill="#293e53" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Adafruit Unified Sensor</text>
+  <text x="178" y="220" fill="#647587" font-family="Arial, Helvetica, sans-serif" font-size="17">Adafruit</text>
+  <rect x="178" y="258" width="196" height="54" rx="9" fill="#eaf3f7"/>
+  <text x="276" y="291" text-anchor="middle" fill="#3b5f70" font-family="Arial, Helvetica, sans-serif" font-size="16">DHT sensor library</text>
+  <path d="M390 285h85" stroke="#5b9eb6" stroke-width="5" stroke-linecap="round"/>
+  <path d="m464 272 15 13-15 13" fill="none" stroke="#5b9eb6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="501" y="258" width="208" height="54" rx="9" fill="#e5f4e9"/>
+  <text x="605" y="291" text-anchor="middle" fill="#286d43" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Dependencia</text>
+  <text x="178" y="340" fill="#657b89" font-family="Arial, Helvetica, sans-serif" font-size="15">Normalmente se instala al aceptar Instalar todo.</text>
+</svg>
