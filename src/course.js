@@ -173,7 +173,7 @@ const courseSections = [
       'Instalación de los programas necesarios y preparación de Arduino IDE para trabajar con la tarjeta ESP32. En esta etapa aún no se descarga ni se carga el firmware; esas tareas se realizan en las secciones 5 y 7.',
     why: 'El código se prepara en el computador, no directamente en la tarjeta. Arduino IDE permite compilarlo (convertirlo en instrucciones que la tarjeta entiende) y cargarlo (enviarlo por USB). Git se utilizará más adelante para descargar el proyecto.',
     outcome: 'Arduino IDE quedará instalado y configurado para reconocer el modelo de ESP32 y el puerto de conexión; Git quedará disponible para la descarga del proyecto en la sección 5.',
-    image: '/images/3.1-arduino-ide.svg',
+    image: '/images/3.0.1.png',
     imageAlt: 'Ilustración de Arduino IDE en un computador',
     essentials: [
       { title: 'Arduino IDE 2.x', text: 'Se descarga e instala desde el sitio oficial de Arduino.' },
@@ -203,7 +203,7 @@ const courseSections = [
         title: 'Instalación de Arduino IDE 2.x',
         text: 'Se instala el entorno oficial que se utilizará para compilar y cargar el firmware en las secciones posteriores.',
         images: [
-          { src: '/images/3.1-arduino-ide.svg', alt: 'Ventana ilustrativa de Arduino IDE', caption: 'Arduino IDE para preparar el entorno de trabajo' },
+          { src: '/images/3.1.1.png', alt: 'Ventana ilustrativa de Arduino IDE', caption: 'Arduino IDE para preparar el entorno de trabajo' },
         ],
         instructions: ['Se descarga Arduino IDE 2.x desde el sitio oficial de Arduino.', 'Se instala la versión correspondiente al sistema operativo del computador.'],
         resources: [{ label: 'Descargar Arduino IDE', href: 'https://www.arduino.cc/en/software/' }],
@@ -214,9 +214,10 @@ const courseSections = [
         title: 'Instalación del paquete ESP32',
         text: 'El paquete de Espressif agrega a Arduino IDE la compatibilidad con las tarjetas ESP32.',
         images: [
-          { src: '/images/3.2-esp32-package.svg', alt: 'Ilustración del gestor de tarjetas con el paquete esp32 by Espressif Systems', caption: 'Paquete de tarjetas ESP32 de Espressif Systems' },
+          { src: '/images/3.2.1.png', alt: 'Ilustración del gestor de placas con el paquete esp32 by Espressif Systems', caption: 'Gestor de placas' },
+          { src: '/images/3.2.2.png', alt: 'Ilustración del gestor de placas con el paquete esp32 by Espressif Systems', caption: 'Paquete de placas ESP32 de Espressif Systems' },
         ],
-        instructions: ['En Arduino IDE, se abre el Gestor de tarjetas.', 'Se busca “esp32” y se instala el paquete publicado por Espressif Systems.'],
+        instructions: ['En Arduino IDE, se abre el Gestor de placas.', 'Se busca “esp32” y se instala el paquete publicado por Espressif Systems.'],
         resources: [{ label: 'Instrucciones de instalación de Arduino-ESP32', href: 'https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html' }],
       },
       {
@@ -225,7 +226,7 @@ const courseSections = [
         title: 'Instalación y comprobación de Git',
         text: 'Git se utilizará para clonar el proyecto BioRed en la sección 5; en esta etapa solo se instala y verifica.',
         images: [
-          { src: '/images/3.3-git.svg', alt: 'Terminal con el comando git --version y su resultado', caption: 'Comprobación de la instalación de Git' },
+          { src: '/images/3.3.1.svg', alt: 'Terminal con el comando git --version y su resultado', caption: 'Comprobación de la instalación de Git' },
         ],
         instructions: ['Se descarga e instala Git desde el sitio oficial.', 'Se abre una terminal y se ejecuta git --version.', 'Si la terminal muestra un número de versión, la instalación está disponible.'],
         resources: [{ label: 'Descargar Git', href: 'https://git-scm.com/downloads' }],
@@ -236,9 +237,12 @@ const courseSections = [
         title: 'Conexión de la ESP32 y selección de placa y puerto',
         text: 'Se conecta la tarjeta al computador con un cable USB de datos y se indica a Arduino IDE qué modelo y puerto se utilizarán en las secciones posteriores.',
         images: [
+          { src: '/images/3.4.1.png', alt: 'Ilustración de una tarjeta ESP32 conectada por USB y del selector de placa y puerto de Arduino IDE', caption: 'Selección de la tarjeta y el puerto' },
+          { src: '/images/3.4.2.png', alt: 'Ilustración de una tarjeta ESP32 conectada por USB y del selector de placa y puerto de Arduino IDE', caption: 'Selección de la tarjeta y el puerto' },
+          { src: '/images/3.4.3.png', alt: 'Ilustración de una tarjeta ESP32 conectada por USB y del selector de placa y puerto de Arduino IDE', caption: 'Selección de la tarjeta y el puerto' },
           { src: '/images/3.4-board-port.svg', alt: 'Ilustración de una tarjeta ESP32 conectada por USB y del selector de placa y puerto de Arduino IDE', caption: 'Conexión USB y selección de la tarjeta y el puerto' },
         ],
-        instructions: ['Se conecta la ESP32 al computador mediante el cable USB de datos de la sección 1.', 'En Arduino IDE, se selecciona el modelo correspondiente. Para la placa de referencia ESP32-WROOM-32 DevKit, se utiliza ESP32 Dev Module.', 'En Herramientas → Puerto, se selecciona el puerto que aparece al conectar la tarjeta.', 'En esta etapa no se descarga ni se carga el firmware; la descarga se realiza en la sección 5 y la carga, en la sección 7.'],
+        instructions: ['Se conecta la ESP32 al computador mediante el cable USB de datos de la sección 1.', 'En Arduino IDE, se selecciona el modelo correspondiente.', 'En Herramientas → Puerto, se selecciona el puerto que aparece al conectar la tarjeta.', 'En esta etapa no se descarga ni se carga el firmware; la descarga se realiza en la sección 5 y la carga, en la sección 7.'],
         resources: [{ label: 'Guía de inicio de Arduino IDE 2', href: 'https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/' }],
       },
       {
@@ -247,7 +251,7 @@ const courseSections = [
         title: 'Instalación de Visual Studio Code',
         text: 'Un editor que abre carpetas completas facilita la revisión del proyecto y la edición de BioRedConfig.h en la sección 5.',
         images: [
-          { src: '/images/3.5-vscode.svg', alt: 'Ilustración de un editor de código con una carpeta de proyecto abierta', caption: 'Editor para revisar los archivos del proyecto' },
+          { src: '/images/3.5.1.png', alt: 'Ilustración de un editor de código con una carpeta de proyecto abierta', caption: 'Editor para revisar los archivos del proyecto' },
         ],
         instructions: ['Se puede instalar Visual Studio Code u otro editor que permita abrir carpetas completas.', 'Para seguir este material no se requieren extensiones.'],
         resources: [{ label: 'Descargar Visual Studio Code', href: 'https://code.visualstudio.com/Download' }],
@@ -267,8 +271,8 @@ const courseSections = [
       'Qué es una librería, cuáles requiere el proyecto y cómo instalarlas en Arduino IDE antes de descargar el firmware.',
     why: 'Una librería es código ya escrito por otras personas que el proyecto reutiliza, por ejemplo, para leer un sensor o comunicarse con un servidor MQTT. Si falta una librería que el firmware necesita, el programa no compila; por ello conviene instalarlas antes de descargar el proyecto.',
     outcome: 'Quedarán instaladas las librerías que requiere el proyecto y se podrá identificar qué dependencias corresponden a cada sensor o función.',
-    image: '/images/4.2-arduinojson.svg',
-    imageAlt: 'Ilustración de una librería en Arduino IDE',
+    image: '/images/4.0.1.png',
+    imageAlt: 'Ilustración de una librería',
     essentials: [],
     recommended: [],
     tips: [],
@@ -287,10 +291,8 @@ const courseSections = [
         title: 'Cómo se instala una librería',
         text: 'El mismo procedimiento se aplica a las librerías de ArduinoJson, MQTT y los sensores.',
         images: [
-          { src: '/images/4.1.1-library-manager.svg', alt: 'Menú Herramientas de Arduino IDE con la opción Administrar bibliotecas', caption: '1. Abrir Herramientas → Administrar bibliotecas o el icono de libros' },
-          { src: '/images/4.1.2-library-search.svg', alt: 'Buscador del Administrador de bibliotecas', caption: '2. Escribir el nombre de la librería en el buscador' },
-          { src: '/images/4.1.3-library-author.svg', alt: 'Resultado de búsqueda con el nombre y autor de la librería', caption: '3. Confirmar el nombre, el autor y la versión indicada' },
-          { src: '/images/4.1.4-library-install.svg', alt: 'Opción para instalar una librería y sus dependencias', caption: '4. Seleccionar Instalar y aceptar Instalar todo si se solicitan dependencias' },
+          { src: '/images/4.1.1.png', alt: 'Menú Herramientas de Arduino IDE con la opción Administrar bibliotecas', caption: 'Buscador del Administrador de bibliotecas' },
+          { src: '/images/4.1.2.png', alt: 'Resultado de búsqueda con el nombre y autor de la librería', caption: 'Confirmar el nombre, el autor y la versión indicada' },
         ],
         instructions: [
           'Se abre Herramientas → Administrar bibliotecas. En Arduino IDE 2.x también se encuentra en el icono de libros de la barra lateral.',
@@ -304,13 +306,13 @@ const courseSections = [
         component: 'essential',
         label: '4.2',
         title: 'Librerías esenciales',
-        text: 'ArduinoJson 6.x es la dependencia base para crear y leer mensajes JSON, un formato de texto estructurado utilizado por casi todas las API. Se requiere la serie 6, no la 7, porque la serie 7 modifica parte de su funcionamiento y puede provocar errores de compilación. PubSubClient, de Nick O’Leary, permite comunicarse con un broker MQTT y se incluye para evitar errores al activar esta salida en la sección 5.',
+        text: 'ArduinoJson 7.x es la dependencia base para crear y leer mensajes JSON, un formato de texto estructurado utilizado por casi todas las API. PubSubClient, de Nick O’Leary, permite comunicarse con un broker MQTT y se incluye para evitar errores al activar esta salida en la sección 5.',
         images: [
-          { src: '/images/4.2-arduinojson.svg', alt: 'Resultado de ArduinoJson de Benoît Blanchon y selector de versión 6.x', caption: 'ArduinoJson · autor: Benoît Blanchon · seleccionar versión 6.x' },
-          { src: '/images/4.2-pubsubclient.svg', alt: 'Resultado de PubSubClient de Nick O’Leary en el Administrador de bibliotecas', caption: 'PubSubClient · autor: Nick O’Leary' },
+          { src: '/images/4.1.2.png', alt: 'Resultado de ArduinoJson de Benoît Blanchon y selector de versión 7.x', caption: 'ArduinoJson · autor: Benoît Blanchon · seleccionar versión 7.x' },
+          { src: '/images/4.2.3.png', alt: 'Resultado de PubSubClient de Nick O’Leary en el Administrador de bibliotecas', caption: 'PubSubClient · autor: Nick O’Leary' },
         ],
-        instructions: ['Para ArduinoJson, se confirma que el autor sea Benoît Blanchon y se selecciona una versión de la serie 6.x.', 'Para PubSubClient, se confirma que el autor sea Nick O’Leary y se instala la librería desde el Administrador de bibliotecas.'],
-        resources: [{ label: 'ArduinoJson 6: instalación', href: 'https://arduinojson.org/v6/doc/installation/' }, { label: 'PubSubClient: repositorio oficial', href: 'https://github.com/knolleary/pubsubclient' }],
+        instructions: ['Para ArduinoJson, se confirma que el autor sea Benoît Blanchon y se selecciona una versión de la serie 7.x.', 'Para PubSubClient, se confirma que el autor sea Nick O’Leary y se instala la librería desde el Administrador de bibliotecas.'],
+        resources: [{ label: 'ArduinoJson 7: instalación', href: 'https://arduinojson.org/v7/doc/installation/' }, { label: 'PubSubClient: repositorio oficial', href: 'https://github.com/knolleary/pubsubclient' }],
       },
       {
         component: 'recommended',
@@ -318,8 +320,8 @@ const courseSections = [
         title: 'DHT sensor library y Adafruit Unified Sensor',
         text: 'Estas librerías permiten leer el sensor DHT22. Adafruit Unified Sensor es una dependencia de DHT sensor library y normalmente se instala al aceptar las dependencias.',
         images: [
-          { src: '/images/4.3-dht-library.svg', alt: 'Resultado de DHT sensor library de Adafruit', caption: 'DHT sensor library · autora: Adafruit' },
-          { src: '/images/4.3-unified-sensor.svg', alt: 'Resultado de Adafruit Unified Sensor', caption: 'Adafruit Unified Sensor · autora: Adafruit' },
+          { src: '/images/4.3.1.png', alt: 'Resultado de DHT sensor library de Adafruit', caption: 'DHT sensor library · autora: Adafruit' },
+          { src: '/images/4.3.2.svg', alt: 'Resultado de Adafruit Unified Sensor', caption: 'Adafruit Unified Sensor · autora: Adafruit' },
         ],
         instructions: ['Se busca DHT sensor library y se confirma que la autora sea Adafruit.', 'Se instala la librería y se acepta Instalar todo cuando Arduino IDE ofrezca instalar Adafruit Unified Sensor.', 'Si la dependencia no se instala automáticamente, se busca e instala Adafruit Unified Sensor por separado.'],
         resources: [{ label: 'DHT sensor library de Adafruit', href: 'https://github.com/adafruit/DHT-sensor-library' }, { label: 'Adafruit Unified Sensor', href: 'https://github.com/adafruit/Adafruit_Sensor' }],
@@ -358,7 +360,7 @@ const courseSections = [
       },
     ],
     resources: [
-      { label: 'ArduinoJson 6.x', href: 'https://arduinojson.org/v6/doc/installation/' },
+      { label: 'ArduinoJson 7.x', href: 'https://arduinojson.org/v7/doc/installation/' },
       { label: 'PubSubClient', href: 'https://github.com/knolleary/pubsubclient' },
       { label: 'DHT sensor library de Adafruit', href: 'https://github.com/adafruit/DHT-sensor-library' },
       { label: 'Adafruit Unified Sensor', href: 'https://github.com/adafruit/Adafruit_Sensor' },
@@ -374,7 +376,7 @@ const courseSections = [
       'Descarga del firmware, preparación de la carpeta, creación del archivo de configuración y activación de los módulos que se utilizarán.',
     why: 'El firmware incluye varios sensores y salidas que, por defecto, están desactivados. En este paso se decide cuáles formarán parte del programa mediante valores en un archivo de configuración; no es necesario escribir código nuevo.',
     outcome: 'El proyecto quedará en una carpeta con el nombre requerido, con la configuración local creada y únicamente con los módulos que se utilizarán activados.',
-    image: '/images/5.1-project-structure.svg',
+    image: '/images/5.0.1.png',
     imageAlt: 'Estructura del proyecto BioRed con el archivo principal, la configuración local y la carpeta src',
     essentials: [],
     recommended: [],
@@ -389,32 +391,31 @@ const courseSections = [
     steps: [
       {
         component: 'essential',
-        label: '5.1.1',
+        label: '5.1',
         title: 'Clonar el repositorio',
         text: 'Clonar descarga el proyecto completo mediante Git. La última palabra del comando asigna el nombre correcto a la carpeta desde el inicio.',
         images: [
-          { src: '/images/5.1-project-structure.svg', alt: 'Estructura de carpetas del proyecto BioRed', caption: 'Repositorio descargado con la carpeta del proyecto' },
+          { src: '/images/5.1.1.png', alt: 'Estructura de carpetas del proyecto BioRed', caption: 'Repositorio descargado con la carpeta del proyecto' },
         ],
         instructions: ['Se abre una terminal ubicada en la carpeta donde se desea guardar el proyecto.', 'Se ejecuta el siguiente comando:'],
         codeBlocks: [
-          { label: 'bash', code: 'git clone https://github.com/AngelPrz8a/BioRed_Firmware_ESP32 ESP32-WiFi-Modular' },
+          { label: 'bash', code: 'git clone https://github.com/AngelPrz8a/BioRed_Firmware_ESP32 BioRed_Firmware_ESP32' },
         ],
         bullets: ['Si se descarga el proyecto como archivo ZIP, se extrae su contenido y se continúa con la verificación del nombre de la carpeta.'],
         resources: [{ label: 'Abrir repositorio BioRed', href: 'https://github.com/AngelPrz8a/BioRed_Firmware_ESP32' }],
       },
       {
         component: 'essential',
-        label: '5.1.2',
+        label: '5.2',
         title: 'Verificar el nombre y la estructura de la carpeta',
-        text: 'Arduino IDE requiere que la carpeta del sketch tenga el mismo nombre que su archivo principal, ESP32-WiFi-Modular.ino. Si los nombres no coinciden, el IDE no abre correctamente el proyecto.',
+        text: 'Arduino IDE requiere que la carpeta del sketch tenga el mismo nombre que su archivo principal, BioRed_Firmware_ESP32.ino. Si los nombres no coinciden, el IDE no abre correctamente el proyecto.',
         images: [
-          { src: '/images/5.1-project-structure.svg', alt: 'Carpeta ESP32-WiFi-Modular y sus archivos principales', caption: 'La carpeta y el archivo .ino deben compartir el mismo nombre' },
+          { src: '/images/5.2.1.png', alt: 'Estructura de carpetas del proyecto BioRed', caption: 'Error por inconsistencia en nombre de la carpeta y el archivo principal' },
         ],
-        instructions: ['Se verifica que la carpeta se llame ESP32-WiFi-Modular. Si la descarga creó una carpeta con otro nombre, por ejemplo BioRed_Firmware_ESP32, se renombra.', 'Dentro de la carpeta deben estar ESP32-WiFi-Modular.ino y la carpeta src.'],
       },
       {
         component: 'essential',
-        label: '5.1.3',
+        label: '5.3',
         title: 'Crear el archivo de configuración',
         text: 'Se crea una configuración local a partir del archivo de ejemplo, que se conserva sin modificar.',
         images: [
@@ -424,7 +425,7 @@ const courseSections = [
       },
       {
         component: 'essential',
-        label: '5.1.4',
+        label: '5.4',
         title: 'Activar los módulos que se utilizarán',
         text: 'Se abre BioRedConfig.h en el editor y se cambia de 0 a 1 cada opción que se desea incluir en la compilación. Para esta guía, se puede activar el sensor DHT22 y solo una de las salidas que se utilizará.',
         images: [
@@ -438,17 +439,17 @@ const courseSections = [
       },
       {
         component: 'essential',
-        label: '5.1.5',
+        label: '5.5',
         title: 'Abrir el proyecto y comprobar la compilación',
         text: 'Se abre el archivo principal en Arduino IDE y se verifica el proyecto. Esta comprobación no carga firmware en la tarjeta.',
         images: [
-          { src: '/images/5.4-open-sketch.svg', alt: 'Archivo ESP32-WiFi-Modular.ino abierto en Arduino IDE y opción Verificar', caption: 'Abrir el sketch y seleccionar Verificar' },
+          { src: '/images/5.5.1.png', alt: 'Archivo ESP32-WiFi-Modular.ino abierto en Arduino IDE y opción Verificar', caption: 'Abrir el sketch y seleccionar Verificar' },
         ],
         instructions: ['En Arduino IDE, se elige Archivo → Abrir y se selecciona ESP32-WiFi-Modular.ino.', 'Se pulsa Verificar (icono de marca de verificación, arriba a la izquierda).', 'Si la compilación termina sin errores, el entorno, las librerías y la configuración están listos. Verificar no carga el programa en la tarjeta.'],
       },
       {
         component: 'recommended',
-        label: '5.2.1',
+        label: '5.6',
         title: 'Cambiar la contraseña del punto de acceso',
         text: 'La tarjeta crea la red temporal ESP32-Setup para permitir su configuración. La contraseña inicial es esp32setup y es pública porque aparece en el repositorio; se recomienda cambiarla en BioRedConfig.h. Este archivo local está excluido del repositorio mediante .gitignore.',
         images: [
@@ -460,7 +461,7 @@ const courseSections = [
       },
       {
         component: 'recommended',
-        label: '5.2.2',
+        label: '5.7',
         title: 'Personalizar el nombre de red y la dirección local',
         text: 'Estas opciones son opcionales y se modifican en BioRedConfig.h.',
         codeBlocks: [
@@ -469,7 +470,7 @@ const courseSections = [
       },
       {
         component: 'tips',
-        label: '5.3',
+        label: '5.8',
         title: 'Opciones disponibles en BioRedConfig.h',
         text: 'Los módulos se encuentran desactivados (0) en el archivo de ejemplo. Se cambia a 1 únicamente cada opción que se desea incluir.',
         table: {
@@ -488,7 +489,7 @@ const courseSections = [
       },
       {
         component: 'tips',
-        label: '5.4',
+        label: '5.9',
         title: 'Notas y comprobación',
         text: 'Se recomienda activar solo lo necesario: así se reduce el tiempo de compilación y la cantidad de elementos que se deben configurar y depurar.',
         bullets: [
